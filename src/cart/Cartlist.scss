@@ -1,0 +1,90 @@
+.cart-heading-class{
+    display: flex;
+    p{
+        margin-right: 20px;
+    }
+    width: 600px;
+}
+
+.form-class{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width:680px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="checkbox"]{
+    margin-left: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  
+  label input[type="radio"] {
+    margin-left:10px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  button{
+    margin-top: 10px;
+    padding: 10px;
+  }
+}
+
+.cart-class{
+  width:690px;
+  margin-top: 40px;
+  margin-left: 150px;
+  text-align: center;
+}
+
+.cart-main-class{
+  margin-top: 40px;
+  width: 100%;
+  margin-left: 10px;
+  border: 0.3px solid black;
+  padding: 2px;
+}
+
+.cart-list-name{
+  text-align: center;
+  font-weight: 500px;
+  font-size: 2rem;
+}
+
+.total-price-p{
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.display-error-message{
+  margin-left: 250px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}

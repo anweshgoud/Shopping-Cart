@@ -1,0 +1,86 @@
+.user-details-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+
+  .back-button {
+    margin-bottom: 20px;
+
+    button {
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: black;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin: 5px;
+      background-color: rgb(154, 154, 211);
+
+      &:hover {
+        background-color: #9fc7f1;
+      }
+    }
+  }
+  div{
+    margin: 10px;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+    .user-image {
+      margin-right: 20px;
+
+      img {
+        max-width: 150px;
+        height: auto;
+        border-radius: 50%;
+      }
+    }
+
+    .user-details {
+      h2 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .order-table {
+    color: black;
+    table {
+      width: 100%;
+      border-collapse: collapse;
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+        color: black;
+      }
+
+      th {
+        background-color: #f5f5f5;
+      }
+
+      .order-link {
+        text-decoration: none;
+        color: inherit;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #1e3991;
+        }
+      }
+    }
+  }
+}

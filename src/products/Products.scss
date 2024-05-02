@@ -1,0 +1,39 @@
+.product-item {
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    
+  
+    &:hover {
+      transform: translateY(-5px);
+    }
+  
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  
+    .product-details {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      background-color: #f8f8f8;
+  
+      span {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+  
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+.product-list-class{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
